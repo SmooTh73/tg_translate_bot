@@ -1,0 +1,20 @@
+{
+  "name": "tg_translate_bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemone --exec npm start index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SmooTh73/tg_translate_bot.git"
+  },
+  "keywords": [],
+  "author": "SmooTh73",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SmooTh73/tg_translate_bot/issues"
+  },
+  "homepage": "https://github.com/SmooTh73/tg_translate_bot#readme"
+}
