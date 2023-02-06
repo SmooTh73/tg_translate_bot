@@ -2,9 +2,10 @@
   "name": "tg_translate_bot",
   "version": "1.0.0",
   "description": "",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemone --exec npm start index.js"
+    "dev": "nodemon index.js"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,12 @@
   "bugs": {
     "url": "https://github.com/SmooTh73/tg_translate_bot/issues"
   },
-  "homepage": "https://github.com/SmooTh73/tg_translate_bot#readme"
+  "homepage": "https://github.com/SmooTh73/tg_translate_bot#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "node-telegram-bot-api": "^0.61.0"
+  }
 }
